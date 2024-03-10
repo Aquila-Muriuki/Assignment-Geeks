@@ -640,7 +640,7 @@ margin-bottom: 5rem;
 
 
 html{
-         font-size: 58%;
+         font-size: 68%;
     }
 }
 
@@ -672,7 +672,7 @@ html{
     }
 
   }
-  @media (max-width: 771px){
+  @media (max-width: 1200px){
 
     #menu-icon
     {
@@ -871,3 +871,18 @@ html{
     transform: translateY(-4px);
   }
   
+  @media (max-width: 600px) {
+
+ /* Contact-us */
+ #contact-us .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #contact-us .specific-info {
+    margin-bottom: 25px;
+  }
+
+
+  }
